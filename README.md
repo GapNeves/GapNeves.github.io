@@ -1,2 +1,2 @@
-# GapNeves..github.io
+# GapNeves.github.io
 Meu Portifólio Web
