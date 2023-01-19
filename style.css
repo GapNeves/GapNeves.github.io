@@ -67,10 +67,22 @@ img{
 
 .skill{
     position: absolute;
-    width: 100%;
-    top: 700px;    
+    text-align: center;
+    top: 700px;
+
 }
 
 ol li:nth-child(odd){
     color: rgb(15, 103, 235);
 }
+
+/* .flaticon{
+    position: absolute;
+    bottom: 15px;
+    background-color: rgb(2, 2, 36);
+    color: #FFF;
+    width: 90%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+} */
