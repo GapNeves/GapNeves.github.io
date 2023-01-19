@@ -9,6 +9,7 @@
     font-size: 50px;
 }
 
+
 h3{
     font-family: 'Crimson Text', serif;
 }
@@ -48,6 +49,8 @@ body{
 .photo{
     position: absolute;
     top: 200px;
+    padding: 75px 50px 75px 50px;
+    box-sizing: border-box;
 }
 
 img{
@@ -65,5 +68,9 @@ img{
 .skill{
     position: absolute;
     width: 100%;
-    top: 600px
+    top: 700px;    
+}
+
+ol li:nth-child(odd){
+    color: rgb(15, 103, 235);
 }
