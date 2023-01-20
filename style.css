@@ -1,88 +1,77 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family= Crimson+Text & display = swap');
 
-#ola{
-    font-family: 'Crimson Text', serif;
-    color: rgb(126, 139, 132);
-    text-align: center;
-    font-size: 50px;
-}
-
-
-h3{
-    font-family: 'Crimson Text', serif;
-}
-
-p, h4{ 
-    font-family: 'Crimson Text', serif;
-    color: white;
-}
-
-li{
-    color: #697150;
-}
-
-a:link, a:visited {
-    color: #697150;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-strong{
-    color: aliceblue;
-}
-
 body{
-    background-color: #040405;
+    background-color: black;
+    text-align: justify;
+    margin: 15px;
+}
+
+.header{
+    font-family: 'Crimson Text', serif, sans-serif;
+    color: white;
     text-align: center;
-    margin: 30px;
+}
+
+#ola{
+    font-size:40px;
 }
 
 .name{
-    color: #697150;
     text-align: center;
 }
 
-.photo{
-    position: absolute;
-    top: 200px;
-    padding: 75px 50px 75px 50px;
-    box-sizing: border-box;
+.nav{
+    text-align: center;
 }
 
-img{
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+.photo{
     border-radius: 15px;
+    border: 5px solid rgb(5, 5, 75);
 }
 
 .apresentation{
-    text-align: justify;
-    position: absolute;
-    width: 45%;
-    top: 250px;
-    left: 400px;
+    color: white;
+    font-family: 'Crimson Text', serif, sans-serif;
+    padding-left: 20px;
 }
 
-.skill{
-    position: absolute;
+a:link{
+    text-decoration: none;
+}
+
+.skills{
+   text-align: center;
+}
+
+.skill-1{
+    color: white;
+}
+
+.skill-2{
+    color: white;
+}
+
+.social{
     text-align: center;
-    top: 700px;
-
 }
 
-ol li:nth-child(odd){
-    color: rgb(15, 103, 235);
+.social a{
+    color: white;
 }
 
-/* .flaticon{
-    position: absolute;
-    bottom: 15px;
-    background-color: rgb(2, 2, 36);
-    color: #FFF;
-    width: 90%;
-    height: 100px;    
+.flaticon{
+    background-color: rgb(5, 5, 75);
     text-align: center;
-    line-height: 100px;
-} */
+    margin-top: 15px;
+}
+
+.flaticon a{
+    color: white;
+    max-width: min-content;
+}

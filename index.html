@@ -9,46 +9,51 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <span id="ola">Hello World!</span>
 
             <h3 class="name"><em>Prazer, meu nome é Gabriel Pereira Neves!<a name="fotoinicial"></a></em></h3>
             <hr>
     </header>
 
-    <article class="photo">
-        <img src="/img/eupensativo.jpeg" alt="Um garoto pensativo" width="300px">
-    </article>
-
-    <article class="apresentation">
-        <p>Esse da foto sou eu! Sou brasileiro, nascido e criado em <strong>Belo Horizonte/MG</strong> , essa terra maravilhosa e com muita comida boa.<br> Nessa foto estava pensando em como faria esse Portifólio e o que eu escreveria nele. <br>E vou compartilhar com vocês que estou em momento incrivel e dando um passo muito importante na minha vida,<br> e não teria epoca melhor para começar esse portifólio, ainda mais agora que sou estudante da <a href="https://www.betrybe.com/?utm_term=trybe&utm_campaign=*%5BSearch%5D+Brand_BRA&utm_source=adwords&utm_medium=ppc&hsa_acc=1466424558&hsa_cam=12085736593&hsa_grp=146119280611&hsa_ad=617838452283&hsa_src=g&hsa_tgt=kwd-372340162995&hsa_kw=trybe&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAiJSeBhCCARIsAHnAzT_n-wGDekUeRgWSc37O7-vti8DTPEZXcT067Gwb9UI-iDMQNb1N8U0aAlmMEALw_wcB" target="_blank">Trybe</a>!</p>
+    <nav class="nav">
         <ul>
             <li>
-                <strong><a href="#habilidade1">Habilidades que me orgulho</a></strong>
-            </li>
-            <li>
-                <strong><a href="#habilidade2">Habilidades adquiridas</a></strong>
+                <strong><a href="#habilidade">Habilidades</a></strong>
             </li>
         </ul>
-    </article>
+    </nav>   
 
-     
+    <div class="container">
+        <article >
+            <img class="photo" src="/img/eupensativo.jpeg" alt="Um garoto pensativo" width="300px">
+        </article>
 
-    <section class="skill">
-        <h4>Habilidades que me orgulho:<a name="habilidade1"></a></h4>
-            <ol>
-                <li>Organização</li>
-                <li>Colaboração</li>
-                <li>Escuta</li>
-            </ol>
-        
-        <h4>Habilidades adquiridas:<a name="habilidade2"></a></h4>
-            <ul>
-                <li>Git & GitHub</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
+        <article class="apresentation">
+            <p>Esse da foto sou eu! Sou brasileiro, nascido e criado em <strong>Belo Horizonte/MG</strong> , essa terra maravilhosa e com muita comida boa.<br> Nessa foto estava pensando em como faria esse Portifólio e o que eu escreveria nele. <br>E vou compartilhar com vocês que estou em momento incrivel e dando um passo muito importante na minha vida,<br> e não teria epoca melhor para começar esse portifólio, ainda mais agora que sou estudante da <a href="https://www.betrybe.com/?utm_term=trybe&utm_campaign=*%5BSearch%5D+Brand_BRA&utm_source=adwords&utm_medium=ppc&hsa_acc=1466424558&hsa_cam=12085736593&hsa_grp=146119280611&hsa_ad=617838452283&hsa_src=g&hsa_tgt=kwd-372340162995&hsa_kw=trybe&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAiJSeBhCCARIsAHnAzT_n-wGDekUeRgWSc37O7-vti8DTPEZXcT067Gwb9UI-iDMQNb1N8U0aAlmMEALw_wcB" target="_blank">Trybe</a>!</p>
+        </article>
+    </div>
+ 
+    <section class="skills">
+        <section class="skill-1">
+            <h4>Habilidades que me orgulho:<a name="habilidade"></a></h4>
+                <ol>
+                    <li>Organização</li>
+                    <li>Colaboração</li>
+                    <li>Escuta</li>
+                </ol>
+        </section>
+        <section class="skill-2">  
+            <h4>Habilidades adquiridas:<a name="habilidade"></a></h4>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+        </section>
+    </section>
 
+    <section class="social">
         <h4>Para me conhecer melhor:</h4>
         <ul>
             <li> <img src="/img/linkedin (1).png" width="25px"> <a href="https://www.linkedin.com/in/gabriel-pereira-559487187" target="_blank">LinkedIn</a></li>
@@ -57,11 +62,12 @@
         </ul>
         <a href="#fotoinicial" ><em>Foto Inicial!</em></a>
     </section>
+    
 
-    <!-- <div class="flaticon">
-            <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a> 
-            <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por Pixel perfect - Flaticon</a>       
-    </div> -->
+    <footer class="flaticon">
+            <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones" target="_blank">Linkedin ícones criados por Freepik - Flaticon</a> 
+            <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones" target="_blank">Github ícones criados por Pixel perfect - Flaticon</a>       
+    </footer>
 
 </body>
 </html>
